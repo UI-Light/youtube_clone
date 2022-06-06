@@ -1,9 +1,9 @@
 import "package:flutter/material.dart";
-import 'package:youtube_clone/ui/create_tab.dart';
-import 'package:youtube_clone/ui/home_view.dart';
-import 'package:youtube_clone/ui/library_view.dart';
-import 'package:youtube_clone/ui/shorts_view.dart';
-import 'package:youtube_clone/ui/subscriptions_view.dart';
+import 'package:youtube_clone/ui/views/create_tab.dart';
+import 'package:youtube_clone/ui/views/home_view.dart';
+import 'package:youtube_clone/ui/views/library_view.dart';
+import 'package:youtube_clone/ui/views/shorts_view.dart';
+import 'package:youtube_clone/ui/views/subscriptions_view.dart';
 
 class PagesView extends StatefulWidget {
   const PagesView({Key? key}) : super(key: key);
