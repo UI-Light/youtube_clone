@@ -1,4 +1,5 @@
 import "package:flutter/material.dart";
+import 'package:youtube_clone/ui/sharedWidgets/video_card.dart';
 import 'dart:async';
 import 'package:youtube_clone/ui/views/pages_view.dart';
 

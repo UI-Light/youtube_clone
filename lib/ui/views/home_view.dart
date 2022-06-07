@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:youtube_clone/ui/sharedWidgets/video_card.dart';
 
 class HomeView extends StatefulWidget {
   const HomeView({Key? key}) : super(key: key);
@@ -53,7 +54,15 @@ class _HomeViewState extends State<HomeView> {
               )
             ],
             floating: true,
-          )
+          ),
+          SliverList(
+            delegate: SliverChildBuilderDelegate(
+              (BuildContext context, int index) {
+                return const VideoCard();
+              },
+              childCount: 20,
+            ),
+          ),
         ],
       ),
     );
